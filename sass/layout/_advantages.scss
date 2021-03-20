@@ -1,82 +1,77 @@
 /* ============== ADVANTAGES SECTION ============== */
-// СТИЛІ ДЛЯ МОБІЛЬНОГО
+// СТИЛИ ДЛЯ МОБИЛЬНОГО
 
 .service-list-item {
-     font-size: 14px;
-     letter-spacing: 0.03em;
-     margin-bottom: 30px;
- }
- .service-icon-background {
- //    width:auto;
-     height: 120px;
-     margin-bottom: 30px;
-     background: var(--backgr-color-second);
-     display: flex;
-     justify-content: center;
-     align-items: center;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  margin-bottom: 30px;
+}
+.service-icon-background {
+  height: 120px;
+  margin-bottom: 30px;
+  background: var(--backgr-color-second);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-  .service-icon {
-     width: 70px;
-     height: 70px;
+.service-icon {
+  width: 70px;
+  height: 70px;
 }
-
 
 .services-title {
-    font-weight: 700;
-    line-height: 1.142;
-    text-transform: uppercase;
-    color: var(--heading-color);
+  font-weight: 700;
+  line-height: 1.142;
+  text-transform: uppercase;
+  color: var(--heading-color);
 
-    /*@include font($font-weight, $font-size, $line-height, $letter-spacing, $color)*/
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 .advantages-description {
-    font-weight: 400;
-    line-height: 1.714;
+  font-weight: 400;
+  line-height: 1.714;
 }
-
 
 // СТИЛИ ДЛЯ ПЛАНШЕТА
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-    .advantages-list {
-        width: calc(100% + var(--card-set-advantages));
-        display: flex;
-        flex-wrap: wrap;
-        margin-left: calc(-1*var(--card-set-advantages));
-        margin-top: calc(-1*var(--card-set-advantages));
-    }
-    
-    .advantages-list-item {
-        flex-basis: calc(100%/2 - var(--card-set-advantages));
-        margin-left: var(--card-set-advantages);
-        margin-top: var(--card-set-advantages);
-        margin-bottom: 0;
-    }
+  .advantages-list {
+    width: calc(100% + var(--card-set-advantages));
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: calc(-1 * var(--card-set-advantages));
+    margin-top: calc(-1 * var(--card-set-advantages));
+  }
+
+  .advantages-list-item {
+    flex-basis: calc(100% / 2 - var(--card-set-advantages));
+    margin-left: var(--card-set-advantages);
+    margin-top: var(--card-set-advantages);
+    margin-bottom: 0;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .advantages-title {
-        text-align: center;
-    }
+  .advantages-title {
+    text-align: center;
+  }
 }
 
 // СТИЛИ ДЛЯ МОНИТОРA
 
 @media screen and (min-width: 1200px) {
-    .advantages-list {
-         display: flex;
- }
-    .advantages-list-item {
-            font-size: 14px;
-            letter-spacing: 0.03em;
-    
-            &:not(:last-child) {
-                margin-right: 30px;
-        }
-    }
-}
+  .advantages-list {
+    display: flex;
+  }
+  .advantages-list-item {
+    font-size: 14px;
+    letter-spacing: 0.03em;
 
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+}
 
 /* ============== ADVANTAGES SECTION END ============== */

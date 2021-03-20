@@ -1,91 +1,81 @@
- /* ============== OUR COMAND ============== */
+/* ============== OUR COMAND ============== */
 
- // СТИЛІ ДЛЯ МОБІЛЬНОГО
-
+// СТИЛИ ДЛЯ МОБИЛЬНОГО
 
 .our-command-section {
-    background-color: var(--backgr-color-second);
-
-    // & > .container{
-    //     padding-top: 94px;
-    //     padding-bottom: 94px;
-    // }
+  background-color: var(--backgr-color-second);
 }
 
- .our-command-list-item {
-    flex-basis: 100%;
-    background-color: var(--main-color-dark-backgr);
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-    margin-top: var(--card-set-our-command);
+.our-command-list-item {
+  flex-basis: 100%;
+  background-color: var(--main-color-dark-backgr);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  margin-top: var(--card-set-our-command);
 }
 
 @media screen and (min-width: 480px) {
-    .our-command-list-item {
-        width: 450;
-    }
+  .our-command-list-item {
+    width: 450;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .our-command-list-item:first-child {
-        margin-top: 0;
-    }
+  .our-command-list-item:first-child {
+    margin-top: 0;
+  }
 }
 
 .our-command-card-content {
-    padding: 30px 10px;
+  padding: 30px 10px;
 }
 
 .our-specialist-name {
-    margin-bottom: 10px;
-    @include font(500, 16px, 1.188, 0.03em);
-    text-align: center;
-    color: var(--heading-color);
+  margin-bottom: 10px;
+  @include font(500, 16px, 1.188, 0.03em);
+  text-align: center;
+  color: var(--heading-color);
 }
 
 .our-specialist-specialization {
-    margin-bottom: 16px;
-    @include font(400, 16px, 1.188, 0.03em);
-    text-align: center;
+  margin-bottom: 16px;
+  @include font(400, 16px, 1.188, 0.03em);
+  text-align: center;
 }
 
-
-// СТИЛІ ДЛЯ ПЛАНШЕТУ
+// СТИЛИ ДЛЯ ПЛАНШЕТА
 
 @media screen and (min-width: 768px) {
+  .our-command-section .container {
+    flex-direction: column;
+  }
+  .our-command-list {
+    width: calc(100% + var(--card-set-our-clients));
+    display: flex;
+    // justify-content: center;
+    flex-wrap: wrap;
+    margin-left: calc(-1 * var(--card-set-our-command));
+    margin-top: calc(-1 * var(--card-set-our-command));
+  }
 
-    .our-command-section .container {
-        flex-direction: column;
-    }
-    .our-command-list {
-        width: calc(100% + var(--card-set-our-clients));
-        display: flex;
-        // justify-content: center;
-        flex-wrap: wrap;
-        margin-left: calc(-1*var(--card-set-our-command));
-        margin-top: calc(-1*var(--card-set-our-command));
-    }
-
-    .our-command-list-item {
-        flex-basis: calc(100%/2 - var(--card-set-our-command));
-        margin-left: var(--card-set-our-command);
-        margin-top: var(--card-set-our-command);
-    }
+  .our-command-list-item {
+    flex-basis: calc(100% / 2 - var(--card-set-our-command));
+    margin-left: var(--card-set-our-command);
+    margin-top: var(--card-set-our-command);
+  }
 }
 
-// СТИЛІ ДЛЯ МОНІТОРУ КОМПʼЮТЕРА
+// СТИЛИ ДЛЯ МОНИТОРА
 
 @media screen and (min-width: 1200px) {
-    // .our-command-list {
-    //     width: calc(100% + var(--card-set-our-clients));
-    // }
+  // .our-command-list {
+  //     width: calc(100% + var(--card-set-our-clients));
+  // }
 
-    .our-command-list-item {
-        flex-basis: calc(100%/4 - var(--card-set-our-command));
-    }
-
-
+  .our-command-list-item {
+    flex-basis: calc(100% / 4 - var(--card-set-our-command));
+  }
 }
-
 
 /* ============== OUR COMAND END ============== */

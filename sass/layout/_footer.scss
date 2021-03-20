@@ -1,5 +1,5 @@
 /* ============== FOOTER ============== */
- // СТИЛІ ДЛЯ МОБІЛЬНОГО
+ // СТИЛИ ДЛЯ МОБИЛЬНОГО
 
  .footer {
      background-color: var(--backgr-color-first);
@@ -84,7 +84,7 @@
      margin: 0 auto;
  }
 
- // СТИЛІ ДЛЯ ПЛАНШЕТУ
+ // СТИЛИ ДЛЯ ПЛАНШЕТА
  @media screen and (min-width: 768px){
     .footer  .container {
             align-items: flex-start;
@@ -103,7 +103,7 @@
        }
 }
  
-// СТИЛІ ДЛЯ МОНІТОРУ КОМПʼЮТЕРА
+// СТИЛИ ДЛЯ МОНИТОРА
 
 @media screen and (min-width: 1200px){   
      .footer  .container {
