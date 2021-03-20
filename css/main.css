@@ -894,13 +894,13 @@ img {
 
 /* ============== HERO SECTION END ============== */
 /* ============== ADVANTAGES SECTION ============== */
-.service-list-item {
+.advantages-list-item {
   font-size: 14px;
   letter-spacing: 0.03em;
   margin-bottom: 30px;
 }
 
-.service-icon-background {
+.advantages-icon-background {
   height: 120px;
   margin-bottom: 30px;
   background: var(--backgr-color-second);
@@ -915,12 +915,12 @@ img {
           align-items: center;
 }
 
-.service-icon {
+.advantages-icon {
   width: 70px;
   height: 70px;
 }
 
-.services-title {
+.advantages-title {
   font-weight: 700;
   line-height: 1.142;
   text-transform: uppercase;
