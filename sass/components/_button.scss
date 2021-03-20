@@ -6,7 +6,7 @@
     justify-content:center;
     border: none;
     width: 200px;
-    min-height: 50px;
+    height: 50px;
     background: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border: none;
@@ -26,5 +26,18 @@
         margin-left: 10px;
     }
 }
+ /* Правила для сепер малих екранів */
+
+@media screen and  (max-width: 225px) {   
+    .button {
+        width: auto;      
+    }
+}
+// Мої експерименти 
+// @media screen and (max-width: 320px) {
+//     .button{
+//         width: auto;
+//     }
+// }
 
 /* ============== BACKDROP component END ============== */

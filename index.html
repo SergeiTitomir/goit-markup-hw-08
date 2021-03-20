@@ -21,8 +21,8 @@
         aria-controls="menu-container" 
         data-menu-button>
             <svg width="40px" height="40px" aria-label="Переключатель мобильного меню">
-                <use class="icon-menu" href="./images/sprite.svg#icon-menu"></use>
-                <use class="icon-close-menu" href="./images/sprite.svg#icon-close-menu"></use>
+                <use class="icon-menu" href="./symbol-defs.svg#icon-menu"></use>
+                <use class="icon-close-menu" href="./symbol-defs.svg#icon-close-menu"></use>
             </svg>
         </button>
         <div class="menu-container" id="menu-container" data-menu>
@@ -58,16 +58,16 @@
     </header>
     <main>
 
-        <!--Hero-->
-<!-- <section class="hero-section">
+        <!-- Hero-->
+<section class="hero-section">
     <div class="container">
     <h1 class="hero-title">Эффективные решения <br> для вашего бизнеса</h1>
     <button class="button hero-button" type="button" data-modal-open>Заказать услугу</button>
     </div>
-</section> -->
+</section>
 
-<!--Наш сервис-->
-<!-- <section class="our-service">
+<!--Our service-->
+ <section class="our-service">
     <div class="container">
 <h2 class="visually-hidden">Наш сервис</h2>
     <ul class="services-list list">
@@ -113,191 +113,304 @@
 </li>
     </ul>
     </div>
-</section> -->
+</section> 
 
-<!--Чем мы занимаемся-->
-<!-- <section class="specialization-section">
+<!--Our specialization-->
+<section class="specialization-section">
     <div class="container">
-    <h2 class="specialization-title">Чем мы занимаемся</h2>
-    <ul class="specialization-list list">
-    <li class="specialization-list-item">
-        <img class="specialization-img" src="./what_we_do/img.jpg" alt="Написание кода" width="370" height="294">
-    <p class="specialization-name">Десктопные приложения</p>
-    </li>
-    <li class="specialization-list-item">
-        <img class="specialization-img" src="./what_we_do/img-1.jpg" alt="Разработка дизайна" width="370" height="294">
-    <p class="specialization-name">Мобильные приложения</p>
-    </li>
-<li class="specialization-list-item">
-        <img class="specialization-img" src="./what_we_do/img-2.jpg" alt="Работа с цветом" width="370" height="294">
-    <p class="specialization-name">Дизайнерские решения</p>
-    </li>
-</ul>
-    </div>
-</section> -->
+        <h2 class="specialization-title">Чем мы занимаемся</h2>
+        <ul class="specialization-list list">
+            <li class="specialization-list-item">
+                <picture>
+                    <source
+                        srcset="./images/our_specialization/programming.webp 1x, ./images/our_specialization/programming-2x.webp 2x"
+                        type="image/webp">
+                    <source
+                        srcset="./images/our_specialization/programming.jpg 1x, ./images/our_specialization/programming-2x.jpg 2x">
+                    <img src="./images/our_specialization/programming.jpg" alt="Програмист пишет код"
+                        class="specialization-img">
+                </picture>
 
-<!--Наша команда-->
+                <p class="specialization-name">Десктопные приложения</p>
+            </li>
+            <li class="specialization-list-item">
+                <picture>
+                    <source
+                        srcset="./images/our_specialization/applications-design.webp 1x, ./images/our_specialization/applications-design-2x.webp 2x"
+                        type="image/webp">
+                    <source
+                        srcset="./images/our_specialization/applications-design.jpg 1x, ./images/our_specialization/applications-design-2x.jpg 2x">
+                    <img src="./images/our_specialization/application-design.jpg"
+                        alt="Специалист разрабатывает мобильное приложение" class="specialization-img">
+                </picture>
 
-<!-- <section class="our-command-section">
-    <div class="container">
-    <h2 class="our-command-title">Наша команда</h2>
-<ul class="our-command-list list">
-    <li class="our-command-list-item">
-        <img class="our-specialist-photo" src="./our_team/img.jpg" alt="участник команды" width="270" height="260">
-        <div class="our-command-card-content">
-        <h3 class="our-specialist-name">Игорь Демьяненко</h3>
-        <p class="our-specialist-specialization" lang="en">Product Designer</p>
-        <ul class="social-list list">
-            <li class="social-list-item">
-                <a href="#" class="social-list-link">
-                    <svg class="social-list-icon">
-                        <use href="./symbol-defs.svg#icon-instagram_new"></use>
-                    </svg>
-                </a>
+                <p class="specialization-name">Мобильные приложения</p>
             </li>
-            <li class="social-list-item">
-                <a href="#" class="social-list-link">
-                    <svg class="social-list-icon">
-                        <use href="./symbol-defs.svg#icon-twitter"></use>
-                    </svg>
-                </a>
-            </li>
-            <li class="social-list-item">
-                <a href="#" class="social-list-link">
-                    <svg class="social-list-icon">
-                        <use href="./symbol-defs.svg#icon-facebook"></use>
-                    </svg>
-                </a>
-            </li>
-            <li class="social-list-item">
-                <a href="#" class="social-list-link">
-                    <svg class="social-list-icon">
-                        <use href="./symbol-defs.svg#icon-linkedin"></use>
-                    </svg>
-                </a>
+            <li class="specialization-list-item">
+                <picture>
+                    <source
+                        srcset="./images/our_specialization/ui-design.webp 1x, ./images/our_specialization/ui-design-2x.webp 2x"
+                        type="image/webp">
+                    <source
+                        srcset="./images/our_specialization/ui-design.jpg 1x, ./images/our_specialization/ui-design-2x.jpg 2x"
+                        type="image/webp">
+                    <img src="./images/our_specialization/ui-design.jpg" alt="UI дизайнер подбирает цвет"
+                        class="specialization-img">
+                </picture>
+
+                <p class="specialization-name">Дизайнерские решения</p>
             </li>
         </ul>
-        </div>
-        </li>
-
-    <li class="our-command-list-item">
-        <img class="our-specialist-photo" src="./our_team/img-1.jpg" alt="участник команды" width="270" height="260">
-        <div class="our-command-card-content">
-        <h3 class="our-specialist-name">Ольга Репина</h3>
-        <p class="our-specialist-specialization" lang="en">Frontend Developer</p>
-    <ul class="social-list list">
-        <li class="social-list-item">
-            <a href="#" class="social-list-link">
-                <svg class="social-list-icon">
-                    <use href="./symbol-defs.svg#icon-instagram_new"></use>
-                </svg>
-            </a>
-        </li>
-        <li class="social-list-item">
-            <a href="#" class="social-list-link">
-                <svg class="social-list-icon">
-                    <use href="./symbol-defs.svg#icon-twitter"></use>
-                </svg>
-            </a>
-        </li>
-        <li class="social-list-item">
-            <a href="#" class="social-list-link">
-                <svg class="social-list-icon">
-                    <use href="./symbol-defs.svg#icon-facebook"></use>
-                </svg>
-            </a>
-        </li>
-        <li class="social-list-item">
-            <a href="#" class="social-list-link">
-                <svg class="social-list-icon">
-                    <use href="./symbol-defs.svg#icon-linkedin"></use>
-                </svg>
-            </a>
-        </li>
-    </ul>
     </div>
-    </li>
+</section>
 
-    <li class="our-command-list-item">
-        <img class="our-specialist-photo" src="./our_team/img-2.jpg" alt="участник команды" width="270" height="260">
-        <div class="our-command-card-content">
-        <h3 class="our-specialist-name">Николай Тарасов</h3>
-        <p class="our-specialist-specialization" lang="en">Marketing</p>
-<ul class="social-list list">
-    <li class="social-list-item">
-        <a href="#" class="social-list-link">
-            <svg class="social-list-icon">
-                <use href="./symbol-defs.svg#icon-instagram_new"></use>
-            </svg>
-        </a>
-    </li>
-    <li class="social-list-item">
-        <a href="#" class="social-list-link">
-            <svg class="social-list-icon">
-                <use href="./symbol-defs.svg#icon-twitter"></use>
-            </svg>
-        </a>
-    </li>
-    <li class="social-list-item">
-        <a href="#" class="social-list-link">
-            <svg class="social-list-icon">
-                <use href="./symbol-defs.svg#icon-facebook"></use>
-            </svg>
-        </a>
-    </li>
-    <li class="social-list-item">
-        <a href="#" class="social-list-link">
-            <svg class="social-list-icon">
-                <use href="./symbol-defs.svg#icon-linkedin"></use>
-            </svg>
-        </a>
-    </li>
-</ul>
-</div>
-</li>
-
-    <li class="our-command-list-item">
-        <img class="our-specialist-photo" src="./our_team/img-3.jpg" alt="участник команды" width="270" height="260">
-        <div class="our-command-card-content">
-        <h3 class="our-specialist-name">Михаил Ермаков</h3>
-        <p class="our-specialist-specialization" lang="en">UI Designer</p>
-<ul class="social-list list">
-    <li class="social-list-item">
-        <a href="#" class="social-list-link">
-            <svg class="social-list-icon">
-                <use href="./symbol-defs.svg#icon-instagram_new"></use>
-            </svg>
-        </a>
-    </li>
-    <li class="social-list-item">
-        <a href="#" class="social-list-link">
-            <svg class="social-list-icon">
-                <use href="./symbol-defs.svg#icon-twitter"></use>
-            </svg>
-        </a>
-    </li>
-    <li class="social-list-item">
-        <a href="#" class="social-list-link">
-            <svg class="social-list-icon">
-                <use href="./symbol-defs.svg#icon-facebook"></use>
-            </svg>
-        </a>
-    </li>
-    <li class="social-list-item">
-        <a href="#" class="social-list-link">
-            <svg class="social-list-icon">
-                <use href="./symbol-defs.svg#icon-linkedin"></use>
-            </svg>
-        </a>
-    </li>
-</ul>
-</div>
-</li>
-</ul>
-    </div>
-</section> -->
+            <!--Our command-->
+            <section class="our-command-section">
+                <div class="container">
+                    <h2 class="our-command-title">Наша команда</h2>
+                    <ul class="our-command-list list">
+                        <li class="our-command-list-item">
+                            <!-- <img class="our-specialist-photo" src="./images/our_command/igor_demyanenko.jpg" alt="Наш специалист"> -->
+            
+                            <picture>
+                                <source
+                                    srcset="./images/our_command/igor-demyanenko-mob.webp 1x, ./images/our_command/igor-demyanenko-mob-2x.webp 2x"
+                                    media="(max-width: 767px)" type="image/webp" />
+                                <source
+                                    srcset="./images/our_command/igor-demyanenko-mob.jpg 1x, ./images/our_command/igor-demyanenko-mob-2x.jpg 2x"
+                                    media="(max-width: 767px)" />
+                                <source
+                                    srcset="./images/our_command/igor-demyanenko-tabl.webp 1x, ./images/our_command/igor-demyanenko-tabl-2x.webp 2x"
+                                    media="(max-width: 1199px)" type="image/webp" />
+                                <source
+                                    srcset="./images/our_command/igor-demyanenko-tabl.jpg 1x, ./images/our_command/igor-demyanenko-tabl-2x.jpg 2x"
+                                    media="(max-width: 1199px)" />
+                                <source
+                                    srcset="./images/our_command/igor-demyanenko-desk.webp 1x, ./images/our_command/igor-demyanenko-desk-2x.webp 2x"
+                                    media="(min-width: 1200px)" type="image/webp" />
+                                <source
+                                    srcset="./images/our_command/igor-demyanenko-desk.jpg 1x, ./images/our_command/igor-demyanenko-desk-2x.jpg 2x"
+                                    media="(min-width: 1200px)" />
+                                <img class="our-specialist-photo" src="./images/our_command/igor-demyanenko-mob.jpg"
+                                    alt="Наш специалист">
+                            </picture>
+            
+                            <div class="our-command-card-content">
+                                <h3 class="our-specialist-name">Игорь Демьяненко</h3>
+                                <p class="our-specialist-specialization" lang="en">Product Designer</p>
+                                <ul class="social-list list">
+                                    <li class="social-list-item">
+                                        <a href="#" class="social-list-link">
+                                            <svg class="social-list-icon">
+                                                <use href="./images/sprite.svg#icon-instagram"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-list-item">
+                                        <a href="#" class="social-list-link">
+                                            <svg class="social-list-icon">
+                                                <use href="./images/sprite.svg#icon-twitter"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-list-item">
+                                        <a href="#" class="social-list-link">
+                                            <svg class="social-list-icon">
+                                                <use href="./images/sprite.svg#icon-facebook"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-list-item">
+                                        <a href="#" class="social-list-link">
+                                            <svg class="social-list-icon">
+                                                <use href="./images/sprite.svg#icon-linkedin"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="our-command-list-item">
+                            <picture>
+                                <source
+                                    srcset="./images/our_command/olga-repina-mob.webp 1x, ./images/our_command/olga-repina-mob-2x.webp 2x"
+                                    media="(max-width: 767px)" type="image/webp" />
+                                <source
+                                    srcset="./images/our_command/olga-repina-mob.jpg 1x, ./images/our_command/olga-repina-mob-2x.jpg 2x"
+                                    media="(max-width: 767px)" />
+                                <source
+                                    srcset="./images/our_command/olga-repina-tabl.webp 1x, ./images/our_command/olga-repina-tabl-2x.webp 2x"
+                                    media="(max-width: 1199px)" type="image/webp" />
+                                <source
+                                    srcset="./images/our_command/olga-repina-tabl.jpg 1x, ./images/our_command/olga-repina-tabl-2x.jpg 2x"
+                                    media="(max-width: 1199px)" />
+                                <source
+                                    srcset="./images/our_command/olga-repina-desk.webp 1x, ./images/our_command/olga-repina-desk-2x.webp 2x"
+                                    media="(min-width: 1200px)" type="image/webp" />
+                                <source
+                                    srcset="./images/our_command/olga-repina-desk.jpg 1x, ./images/our_command/olga-repina-desk-2x.jpeg 2x"
+                                    media="(min-width: 1200px)" />
+                                <img class="our-specialist-photo" src="./images/our_command/olga-repina-mob.jpg"
+                                    alt="Наш специалист" />
+                            </picture>
+                            <div class="our-command-card-content">
+                                <h3 class="our-specialist-name">Ольга Репина</h3>
+                                <p class="our-specialist-specialization" lang="en">Frontend Developer</p>
+                                <ul class="social-list list">
+                                    <li class="social-list-item">
+                                        <a href="#" class="social-list-link">
+                                            <svg class="social-list-icon">
+                                                <use href="./images/sprite.svg#icon-instagram"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-list-item">
+                                        <a href="#" class="social-list-link">
+                                            <svg class="social-list-icon">
+                                                <use href="./images/sprite.svg#icon-twitter"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-list-item">
+                                        <a href="#" class="social-list-link">
+                                            <svg class="social-list-icon">
+                                                <use href="./images/sprite.svg#icon-facebook"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-list-item">
+                                        <a href="#" class="social-list-link">
+                                            <svg class="social-list-icon">
+                                                <use href="./images/sprite.svg#icon-linkedin"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="our-command-list-item">
+                            <picture>
+                                <source
+                                    srcset="./images/our_command/nikolay-tarasov-mob.webp 1x, ./images/our_command/nikolay-tarasov-mob-2x.webp 2x"
+                                    media="(max-width: 767px)" type="image/webp" />
+                                <source
+                                    srcset="./images/our_command/nikolay-tarasov-mob.jpg 1x, ./images/our_command/nikolay-tarasov-mob-2x.jpg 2x"
+                                    media="(max-width: 767px)" />
+                                <source
+                                    srcset="./images/our_command/nikolay-tarasov-tabl.webp 1x, ./images/our_command/nikolay-tarasov-tabl-2x.webp 2x"
+                                    media="(max-width: 1199px)" type="image/webp" />
+                                <source
+                                    srcset="./images/our_command/nikolay-tarasov-tabl.jpg 1x, ./images/our_command/nikolay-tarasov-tabl-2x.jpg 2x"
+                                    media="(max-width: 1199px)" />
+                                <source
+                                    srcset="./images/our_command/nikolay-tarasov-desk.webp 1x, ./images/our_command/nikolay-tarasov-desk-2x.webp 2x"
+                                    media="(min-width: 1200px)" type="image/webp" />
+                                <source
+                                    srcset="./images/our_command/nikolay-tarasov-desk.jpg 1x, ./images/our_command/nikolay-tarasov-desk-2x.jpg 2x"
+                                    media="(min-width: 1200px)" />
+                                <img class="our-specialist-photo" src="./images/our_command/nikolay-tarasov-mob.jpg"
+                                    alt="Наш специалист">
+                            </picture>
+                            <!-- <img class="our-specialist-photo " src="./images/our_command/nikolay_tarasov.jpg" alt="Наш специалист"> -->
+                            <div class="our-command-card-content">
+                                <h3 class="our-specialist-name">Николай Тарасов</h3>
+                                <p class="our-specialist-specialization" lang="en">Marketing</p>
+                                <ul class="social-list list">
+                                    <li class="social-list-item">
+                                        <a href="#" class="social-list-link">
+                                            <svg class="social-list-icon">
+                                                <use href="./images/sprite.svg#icon-instagram"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-list-item">
+                                        <a href="" class="social-list-link">
+                                            <svg class="social-list-icon">
+                                                <use href="./images/sprite.svg#icon-twitter"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-list-item">
+                                        <a href="" class="social-list-link">
+                                            <svg class="social-list-icon">
+                                                <use href="./images/sprite.svg#icon-facebook"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-list-item">
+                                        <a href="" class="social-list-link">
+                                            <svg class="social-list-icon">
+                                                <use href="./images/sprite.svg#icon-linkedin"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="our-command-list-item">
+                            <picture>
+                                <source
+                                    srcset="./images/our_command/mihail-yermakov-mob.webp 1x, ./images/our_command/mihail-yermakov-mob-2x.webp 2x"
+                                    media="(max-width: 767px)" type="image/webp" />
+                                <source
+                                    srcset="./images/our_command/mihail-yermakov-mob.jpg 1x, ./images/our_command/mihail-yermakov-mob-2x.jpg 2x"
+                                    media="(max-width: 767px)" />
+                                <source
+                                    srcset="./images/our_command/mihail-yermakov-tabl.webp 1x, ./images/our_command/mihail-yermakov-tabl-2x.webp 2x"
+                                    media="(max-width: 1199px)" type="image/webp" />
+                                <source
+                                    srcset="./images/our_command/mihail-yermakov-tabl.jpg 1x, ./images/our_command/mihail-yermakov-tabl-2x.jpg 2x"
+                                    media="(max-width: 1199px)" />
+                                <source
+                                    srcset="./images/our_command/mihail-yermakov-desk.webp 1x, ./images/our_command/mihail-yermakov-desk-2x.webp 2x"
+                                    media="(min-width: 1200px)" type="image/webp" />
+                                <source
+                                    srcset="./images/our_command/mihail-yermakov-desk.jpg 1x, ./images/our_command/mihail-yermakov-desk-2x.jpg 2x"
+                                    media="(min-width: 1200px)" />
+                                <img class="our-specialist-photo" src="./images/our_command/mihail-yermakov-mob.jpg"
+                                    alt="Наш специалист"></source>
+                            </picture>
+                            <!-- <img class="our-specialist-photo " src="./images/our_command/mihail_yermakov.jpg" alt="Наш специалист"> -->
+                            <div class="our-command-card-content">
+                                <h3 class="our-specialist-name">Михаил Ермаков</h3>
+                                <p class="our-specialist-specialization" lang="en">UI Designer</p>
+                                <ul class="social-list list">
+                                    <li class="social-list-item">
+                                        <a href="#" class="social-list-link">
+                                            <svg class="social-list-icon">
+                                                <use href="./images/sprite.svg#icon-instagram"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-list-item">
+                                        <a href="#" class="social-list-link">
+                                            <svg class="social-list-icon">
+                                                <use href="./images/sprite.svg#icon-twitter"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-list-item">
+                                        <a href="#" class="social-list-link">
+                                            <svg class="social-list-icon">
+                                                <use href="./images/sprite.svg#icon-facebook"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-list-item">
+                                        <a href="#" class="social-list-link">
+                                            <svg class="social-list-icon">
+                                                <use href="./images/sprite.svg#icon-linkedin"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
 <!--Наши клиенты-->
-<!-- <section class="our-clients-section">
+<section class="our-clients-section">
     <div class="container">
         <h2 class="our-clients-title">Постоянные клиенты</h2>
         <ul class="our-clients-list">
@@ -346,10 +459,10 @@
         </ul>
     </div>
 </section>
-    </main> -->
+    </main>
   
     <!--Бекдроп та модалка портфоліо-->
-    <!-- <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="close-button" data-modal-close>
                 <svg class="close-button-icon" width="30" height="30">
@@ -396,10 +509,10 @@
                 <button type="submit" class="modal-form-button button">Отправить</button>
             </form>
         </div>
-    </div> -->
+    </div>
 
 <!--Footer-->
-    <!-- <footer class="footer">
+    <footer class="footer">
         <div class="container">
             <div class="footer-info">
         <a class="logo link" href="./" aria-label="логотип сайта"><span class="logo-first-part">Web</span><span
@@ -460,10 +573,10 @@
                 </button>
             </form>
         </div>
-            </footer> -->
+            </footer>
     <!--End Footer-->
 
-<script src="./js/modal.js">
-</script>
+<script src="./js/modal.js"></script>
+<script src="./js/menu.js"></script>
 </body>
 </html>

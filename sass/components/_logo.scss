@@ -13,4 +13,16 @@
 .logo-second-part-dark {
   color: var(--main-color-dark-backgr);
 }
+
+@media screen and (min-width: 1199px){
+    .logo {
+        @include font(700, 26px, 1.192, 0.03em);
+    }
+}
+
 /* ============== LOGO END component ============== */
+
+
+
+
+
