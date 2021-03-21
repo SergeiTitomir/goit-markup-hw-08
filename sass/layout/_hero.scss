@@ -16,6 +16,7 @@
     flex-direction: column;
     justify-content: center;
   }
+  margin: auto;
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 320px),
@@ -84,9 +85,10 @@
       ),
       url(../images/hero/bg-desctop.jpg);
     // background-repeat: no-repeat;
-    // background-size: cover;
+    background-size: cover;
     // background-size: 1600px 600px;
     max-width: 1600px;
+    height: 600px;
     //background-position: center 0%;
   }
 }
@@ -100,8 +102,9 @@
         var(--hero-gradient-color)
       ),
       url(../images/hero/bg-desctop@2x.jpg);
-    //background-size: cover;
+    background-size: cover;
     max-width: 1600px;
+    height: 600px;
     //background-size: 1600px 600px;
     //background-position: center 0%;
   }
