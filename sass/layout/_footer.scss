@@ -1,160 +1,156 @@
 /* ============== FOOTER ============== */
- // СТИЛИ ДЛЯ МОБИЛЬНОГО
+// СТИЛИ ДЛЯ МОБИЛЬНОГО
 
- .footer {
-     background-color: var(--backgr-color-first);
-     .logo {
-         display: block;
-        margin-bottom: 20px;
-}
+.footer {
+  background-color: var(--backgr-color-first);
+  .logo {
+    display: block;
+    margin-bottom: 20px;
+  }
 
-     .addres-list-item:not(:last-child) {
-         margin-bottom: 8px;
-     }
+  .addres-list-item:not(:last-child) {
+    margin-bottom: 8px;
+  }
 }
 
 .footer-info {
-    text-align:center;
-    margin-bottom: 60px; 
+  text-align: center;
+  margin-bottom: 60px;
 }
- .address-footer-link {
-     @include font(400, 14px, 1.714, 0.03em);
-     color: var(--addres-second-color);
- }
+.address-footer-link {
+  @include font(400, 14px, 1.714, 0.03em);
+  color: var(--addres-second-color);
+}
 
 .location {
-    color: var(--main-color-dark-backgr);
+  color: var(--main-color-dark-backgr);
 }
 
- .social-list-our-projekt {
-     margin-bottom: 60px;
-     margin-top: 12px;
- }
-
- .social-list-invitation  {
-     @include font(700, 14px, 1.142, 0.03em);
-     text-transform: uppercase;
-     text-align:center;
-     color: var(--main-color-dark-backgr);
-     margin-bottom: 20px;
- }
-
- .dark-social {
-     background: var(--social-link-background-dark);
-
-     .social-list-icon {
-         fill: var(--main-color-dark-backgr)
-     }
- }
-
- .subscription-form {
-     margin: 0 auto;
-     display:flex;
-     flex-wrap: wrap;
- }
-
- .subscription-form-title {
-     width:100%;
-
-     @include font(700, 14px, 1.143, 0.03em);
-     text-transform: uppercase;
-     text-align:center;
-     color: var(--main-color-dark-backgr);
-     margin-bottom: 20px;
- }
- .subscription-form-field {
-    width: 100%;
-   margin-bottom: 20px;
- }
-
- .subscription-form-input {
-     width: 100%;
-     height: 50px;
-     border: 1px solid rgba(255, 255, 255, 0.3);
-     border-radius: 4px;
-     background: transparent;
-     padding-left: 16px;
-     &::placeholder {
-         @include font(400, 16px, 1.25, 0.03em);
-         color: rgba(255, 255, 255, 0.6);
-     }
+.social-list-our-projekt {
+  margin-bottom: 60px;
+  margin-top: 12px;
 }
 
- .subscription-form-button {
-     margin: 0 auto;
- }
-
- // СТИЛИ ДЛЯ ПЛАНШЕТА
- @media screen and (min-width: 768px){
-    .footer  .container {
-            align-items: flex-start;
-            flex-wrap: wrap;
-    }
-
-    .footer-info {
-        width: 232px;
-        margin-left: 76px;
-        margin-right: 165px;
-    }
-
-    .subscription-form {
-        width: 450px;
-        margin:0 auto;
-       }
+.social-list-invitation {
+  @include font(700, 14px, 1.142, 0.03em);
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--main-color-dark-backgr);
+  margin-bottom: 20px;
 }
- 
+
+.dark-social {
+  background: var(--social-link-background-dark);
+
+  .social-list-icon {
+    fill: var(--main-color-dark-backgr);
+  }
+}
+
+.subscription-form {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.subscription-form-title {
+  width: 100%;
+
+  @include font(700, 14px, 1.143, 0.03em);
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--main-color-dark-backgr);
+  margin-bottom: 20px;
+}
+.subscription-form-field {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.subscription-form-input {
+  width: 100%;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  background: transparent;
+  padding-left: 16px;
+  &::placeholder {
+    @include font(400, 16px, 1.25, 0.03em);
+    color: rgba(255, 255, 255, 0.6);
+  }
+}
+
+.subscription-form-button {
+  margin: 0 auto;
+}
+
+// СТИЛИ ДЛЯ ПЛАНШЕТА
+@media screen and (min-width: 768px) {
+  .footer .container {
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .footer-info {
+    width: 232px;
+    margin-left: 76px;
+    margin-right: 165px;
+  }
+
+  .subscription-form {
+    width: 450px;
+    margin: 0 auto;
+  }
+}
+
 // СТИЛИ ДЛЯ МОНИТОРА
 
-@media screen and (min-width: 1200px){   
-     .footer  .container {
-            align-items: flex-start;
-            flex-wrap: nowrap;
-    }
+@media screen and (min-width: 1200px) {
+  .footer .container {
+    align-items: flex-start;
+    flex-wrap: nowrap;
+  }
 
-    .footer-info {
-        margin-left: 0;
-        margin-bottom: 0;
-        margin-right: 70px;
-        text-align:justify;
-    }
+  .footer-info {
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 70px;
+    text-align: justify;
+  }
 
-    .social-list-our-projekt {
-        margin-bottom: 0;
-        margin-top: 12px;
-    }
+  .social-list-our-projekt {
+    margin-bottom: 0;
+    margin-top: 12px;
+  }
 
-    .social-list-invitation  {
-        text-align: justify;
-    }
+  .social-list-invitation {
+    text-align: justify;
+  }
 
+  .subscription-form {
+    margin-top: 12px;
+    width: 570px;
+    margin-right: 0;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-       .subscription-form {
-           margin-top: 12px;
-           width: 570px;
-           margin-right: 0;
-           margin-left: auto;
-           display:flex;
-           flex-wrap: wrap;
-       }
+  .subscription-form-title {
+    text-align: justify;
+  }
 
-       .subscription-form-title { 
-        text-align:justify;
-    }
+  .subscription-form-field {
+    width: auto;
+    margin-right: 12px;
+  }
 
-    .subscription-form-field {
-        width: auto;
-        margin-right: 12px;
+  .subscription-form-input {
+    width: 358px;
+  }
 
-     }
-
-     .subscription-form-input {
-         width: 358px;
-
-   }
-
-   .subscription-form-button {
+  .subscription-form-button {
     margin: 0;
-    }   
-
+  }
 }
 /* ============== FOOTER END ============== */
