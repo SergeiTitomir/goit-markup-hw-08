@@ -8,6 +8,7 @@
     url(../images/hero/bg-mobile.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   //background-size: 480px 400px;
   .container {
     padding: 118px 60px;
@@ -26,7 +27,7 @@
         var(--hero-gradient-color)
       ),
       url(../images/hero/bg-mobile@2x.jpg);
-    background-size: cover;
+    //background-size: cover;
     max-width: 480px;
     //background-size: 480px 400px;
   }
@@ -50,9 +51,10 @@
       ),
       url(../images/hero/bg-tablet.jpg);
 
-    background-repeat: no-repeat;
-    background-size: 768px 400px;
-    background-position: center 0%;
+    max-width: 768px;
+    // background-repeat: no-repeat;
+    // background-size: 768px 400px;
+    // background-position: center 0%;
   }
 }
 
@@ -65,10 +67,10 @@
         var(--hero-gradient-color)
       ),
       url(../images/hero/bg-tablet@2x.jpg);
-    background-size: cover;
+    //background-size: cover;
     max-width: 768px;
     //background-size: 768px 400px;
-    background-position: center 0%;
+    //background-position: center 0%;
   }
 }
 
@@ -81,10 +83,11 @@
         var(--hero-gradient-color)
       ),
       url(../images/hero/bg-desctop.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-size: 1600px 600px;
-    background-position: center 0%;
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    // background-size: 1600px 600px;
+    max-width: 1600px;
+    //background-position: center 0%;
   }
 }
 
@@ -100,17 +103,17 @@
     //background-size: cover;
     max-width: 1600px;
     //background-size: 1600px 600px;
-    background-position: center 0%;
+    //background-position: center 0%;
   }
 }
 
-@media screen and (max-width: 335px) {
-  .hero-section .container {
-    padding: 50px 0;
-  }
-  .hero-title {
-    @include font(700, 20px, 1.615, 0.06em);
-  }
-}
+// @media screen and (max-width: 335px) {
+//   .hero-section .container {
+//     padding: 50px 0;
+//   }
+//   .hero-title {
+//     @include font(700, 20px, 1.615, 0.06em);
+//   }
+// }
 
 /* ============== HERO SECTION END ============== */

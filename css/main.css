@@ -802,6 +802,7 @@ img {
   background-image: linear-gradient(var(--hero-gradient-color), var(--hero-gradient-color)), url(../images/hero/bg-mobile.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .hero-section .container {
@@ -822,7 +823,6 @@ img {
   .hero-section {
     background-image: -webkit-gradient(linear, left top, left bottom, from(var(--hero-gradient-color)), to(var(--hero-gradient-color))), url(../images/hero/bg-mobile@2x.jpg);
     background-image: linear-gradient(var(--hero-gradient-color), var(--hero-gradient-color)), url(../images/hero/bg-mobile@2x.jpg);
-    background-size: cover;
     max-width: 480px;
   }
 }
@@ -873,6 +873,7 @@ img {
   .hero-section {
     background-image: -webkit-gradient(linear, left top, left bottom, from(var(--hero-gradient-color)), to(var(--hero-gradient-color))), url(../images/hero/bg-desctop@2x.jpg);
     background-image: linear-gradient(var(--hero-gradient-color), var(--hero-gradient-color)), url(../images/hero/bg-desctop@2x.jpg);
+    background-size: cover;
     max-width: 1600px;
     background-position: center 0%;
   }
